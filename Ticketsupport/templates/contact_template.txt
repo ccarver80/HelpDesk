@@ -1,0 +1,14 @@
+Name:
+{{ name }}
+
+Email:
+{{ email }}
+
+Catagory:
+{{ catagory }}
+
+Attach:
+{{ attach }}
+
+Message:
+{{ comments }}

@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+
+header {
+  font-size: 3rem;
+  text-align: center;
+  background-color: rgba(224, 162, 29, 1);
+  padding: 0;
+  box-shadow: 1rem 1rem 1rem black;
+}
+
+#logo {
+
+  height: 5rem;
+  display: inline;
+
+}
+
+
+body {
+  background-color: rgba(5, 91, 150, 1);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+#form {
+  text-align: center;
+  box-shadow: 1rem 1rem 1rem black;
+  border-radius: 5%;
+  padding: 2rem;
+  margin: 2rem;
+  background-color: rgba(224, 162, 29, 1);
+}
+
+form p{
+  font-size: 2rem;
+  padding: 1rem;
+}

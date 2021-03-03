@@ -1,0 +1,42 @@
+{% load static %}
+
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>BTCZ Support</title>
+
+  <link rel="stylesheet" href="{% static 'style.css'%}">
+
+  <style>
+
+  </style>
+
+</head>
+
+<body>
+
+  <header> <img id="logo" src="{% static 'imgs/logo.png'%}"> BTCZ Ticket Support Page </header>
+
+  <main>
+    <div id="form">
+    <form method="post" action="/">
+      {% csrf_token %}
+        <h1>Support Ticket Form</h1>
+          {{ form.as_p }}
+          {{ attach.as_p }}
+        <button type="submit" href="/">Submit</button>
+      </form>
+    </div>
+
+
+
+
+
+  </main>
+
+  <footer></footer>
+
+</body>
